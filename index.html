@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mChat</title>
+    <link rel="icon" type="image/png" href="logo.png" />
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script defer src="js/client.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav>
+        <img src="logo.png" class="logo">
+        <h3>A multi-client chat application</h3>
+    </nav>
+    <h1>Welcome to mChat</h1>
+    <div class="container"></div>
+    <div class="send">
+        <form action="#" id="send-container">
+            <input type="text" name="inputMessage" id="inputMessage" placeholder="Message">
+            <button class="btn" type="submit">Send</button>
+
+        </form>
+    </div>
+</body>
+</html>
